@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-112,0,0,1,-9"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel76">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImagenesIconos/iconoTema.png"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Cambiar Tema"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel76MouseClicked"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jLabel76KeyPressed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="380" y="20" width="40" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="VerInformes">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ver Informes"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VerInformesActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="290" width="-1" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ComboBox">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="216">
+            <StringItem index="0" value="Adams"/>
+            <StringItem index="1" value="Alameda"/>
+            <StringItem index="2" value="Alexandria City"/>
+            <StringItem index="3" value="Allegany"/>
+            <StringItem index="4" value="Allegheny"/>
+            <StringItem index="5" value="Allen"/>
+            <StringItem index="6" value="Alpena"/>
+            <StringItem index="7" value="Anchorage"/>
+            <StringItem index="8" value="Anderson"/>
+            <StringItem index="9" value="Arapahoe"/>
+            <StringItem index="10" value="Barnstable"/>
+            <StringItem index="11" value="Benton"/>
+            <StringItem index="12" value="Bergen"/>
+            <StringItem index="13" value="Berks"/>
+            <StringItem index="14" value="Bernalillo"/>
+            <StringItem index="15" value="Bexar"/>
+            <StringItem index="16" value="Bonneville"/>
+            <StringItem index="17" value="Boulder"/>
+            <StringItem index="18" value="Bowie"/>
+            <StringItem index="19" value="Brevard"/>
+            <StringItem index="20" value="Bristol"/>
+            <StringItem index="21" value="Bronx"/>
+            <StringItem index="22" value="Bucks"/>
+            <StringItem index="23" value="Buncombe"/>
+            <StringItem index="24" value="Burlington"/>
+            <StringItem index="25" value="Butte"/>
+            <StringItem index="26" value="Cabell"/>
+            <StringItem index="27" value="Caddo"/>
+            <StringItem index="28" value="Camden"/>
+            <StringItem index="29" value="Cameron"/>
+            <StringItem index="30" value="Carroll"/>
+            <StringItem index="31" value="Cass"/>
+            <StringItem index="32" value="Charlottesville City"/>
+            <StringItem index="33" value="Chatham"/>
+            <StringItem index="34" value="Chester"/>
+            <StringItem index="35" value="Chesterfield"/>
+            <StringItem index="36" value="Chilton"/>
+            <StringItem index="37" value="Clark"/>
+            <StringItem index="38" value="Clarke"/>
+            <StringItem index="39" value="Clermont"/>
+            <StringItem index="40" value="Colleton"/>
+            <StringItem index="41" value="Columbia"/>
+            <StringItem index="42" value="Columbiana"/>
+            <StringItem index="43" value="Cook"/>
+            <StringItem index="44" value="Crawford"/>
+            <StringItem index="45" value="Crow Wing"/>
+            <StringItem index="46" value="Cuyahoga"/>
+            <StringItem index="47" value="Dallas"/>
+            <StringItem index="48" value="Davidson"/>
+            <StringItem index="49" value="De Kalb"/>
+            <StringItem index="50" value="Dearborn"/>
+            <StringItem index="51" value="Dekalb"/>
+            <StringItem index="52" value="Denver"/>
+            <StringItem index="53" value="District of Columbia"/>
+            <StringItem index="54" value="Dodge"/>
+            <StringItem index="55" value="Douglas"/>
+            <StringItem index="56" value="Dubuque"/>
+            <StringItem index="57" value="Dutchess"/>
+            <StringItem index="58" value="El Dorado"/>
+            <StringItem index="59" value="El Paso"/>
+            <StringItem index="60" value="Elbert"/>
+            <StringItem index="61" value="Elmore"/>
+            <StringItem index="62" value="Erie"/>
+            <StringItem index="63" value="Escambia"/>
+            <StringItem index="64" value="Essex"/>
+            <StringItem index="65" value="Fairbanks North Star"/>
+            <StringItem index="66" value="Fairfax"/>
+            <StringItem index="67" value="Fairfield"/>
+            <StringItem index="68" value="Fond du Lac"/>
+            <StringItem index="69" value="Franklin"/>
+            <StringItem index="70" value="Fremont"/>
+            <StringItem index="71" value="Fulton"/>
+            <StringItem index="72" value="Gloucester"/>
+            <StringItem index="73" value="Glynn"/>
+            <StringItem index="74" value="Grayson"/>
+            <StringItem index="75" value="Greene"/>
+            <StringItem index="76" value="Hall"/>
+            <StringItem index="77" value="Hamilton"/>
+            <StringItem index="78" value="Hampden"/>
+            <StringItem index="79" value="Hardin"/>
+            <StringItem index="80" value="Harris"/>
+            <StringItem index="81" value="Harrison"/>
+            <StringItem index="82" value="Hennepin"/>
+            <StringItem index="83" value="Henry"/>
+            <StringItem index="84" value="Hillsborough"/>
+            <StringItem index="85" value="Honolulu"/>
+            <StringItem index="86" value="Hudson"/>
+            <StringItem index="87" value="Humboldt"/>
+            <StringItem index="88" value="Indiana"/>
+            <StringItem index="89" value="Jackson"/>
+            <StringItem index="90" value="Jefferson"/>
+            <StringItem index="91" value="Kerr"/>
+            <StringItem index="92" value="King"/>
+            <StringItem index="93" value="Kings"/>
+            <StringItem index="94" value="Knox"/>
+            <StringItem index="95" value="Kootenai"/>
+            <StringItem index="96" value="La Crosse"/>
+            <StringItem index="97" value="Lackawanna"/>
+            <StringItem index="98" value="Lafayette"/>
+            <StringItem index="99" value="Lake"/>
+            <StringItem index="100" value="Lancaster"/>
+            <StringItem index="101" value="Lane"/>
+            <StringItem index="102" value="Laramie"/>
+            <StringItem index="103" value="Lawrence"/>
+            <StringItem index="104" value="Lee"/>
+            <StringItem index="105" value="Lehigh"/>
+            <StringItem index="106" value="Leon"/>
+            <StringItem index="107" value="Linn"/>
+            <StringItem index="108" value="Lorain"/>
+            <StringItem index="109" value="Los Angeles"/>
+            <StringItem index="110" value="Lucas"/>
+            <StringItem index="111" value="Luzerne"/>
+            <StringItem index="112" value="Macomb"/>
+            <StringItem index="113" value="Macon"/>
+            <StringItem index="114" value="Madison"/>
+            <StringItem index="115" value="Mahoning"/>
+            <StringItem index="116" value="Marathon"/>
+            <StringItem index="117" value="Maricopa"/>
+            <StringItem index="118" value="Marin"/>
+            <StringItem index="119" value="Marion"/>
+            <StringItem index="120" value="McLeod"/>
+            <StringItem index="121" value="Mercer"/>
+            <StringItem index="122" value="Miami-Dade"/>
+            <StringItem index="123" value="Middlesex"/>
+            <StringItem index="124" value="Milwaukee"/>
+            <StringItem index="125" value="Missoula"/>
+            <StringItem index="126" value="Monmouth"/>
+            <StringItem index="127" value="Monroe"/>
+            <StringItem index="128" value="Montgomery"/>
+            <StringItem index="129" value="Morris"/>
+            <StringItem index="130" value="Multnomah"/>
+            <StringItem index="131" value="Nassau"/>
+            <StringItem index="132" value="Nevada"/>
+            <StringItem index="133" value="New Castle"/>
+            <StringItem index="134" value="New Hanover"/>
+            <StringItem index="135" value="New York"/>
+            <StringItem index="136" value="Norfolk City"/>
+            <StringItem index="137" value="Northampton"/>
+            <StringItem index="138" value="Nueces"/>
+            <StringItem index="139" value="Oakland"/>
+            <StringItem index="140" value="Okanogan"/>
+            <StringItem index="141" value="Oklahoma"/>
+            <StringItem index="142" value="Olmsted"/>
+            <StringItem index="143" value="Orange"/>
+            <StringItem index="144" value="Osceola"/>
+            <StringItem index="145" value="Ottawa"/>
+            <StringItem index="146" value="Ouachita"/>
+            <StringItem index="147" value="Palm Beach"/>
+            <StringItem index="148" value="Pasco"/>
+            <StringItem index="149" value="Passaic"/>
+            <StringItem index="150" value="Petersburg City"/>
+            <StringItem index="151" value="Philadelphia"/>
+            <StringItem index="152" value="Pike"/>
+            <StringItem index="153" value="Pinellas"/>
+            <StringItem index="154" value="Polk"/>
+            <StringItem index="155" value="Providence"/>
+            <StringItem index="156" value="Pulaski"/>
+            <StringItem index="157" value="Putnam"/>
+            <StringItem index="158" value="Racine"/>
+            <StringItem index="159" value="Renville"/>
+            <StringItem index="160" value="Riverside"/>
+            <StringItem index="161" value="Saint Johns"/>
+            <StringItem index="162" value="Salt Lake"/>
+            <StringItem index="163" value="San Bernardino"/>
+            <StringItem index="164" value="San Diego"/>
+            <StringItem index="165" value="San Francisco"/>
+            <StringItem index="166" value="San Juan"/>
+            <StringItem index="167" value="San Mateo"/>
+            <StringItem index="168" value="Sandusky"/>
+            <StringItem index="169" value="Santa Clara"/>
+            <StringItem index="170" value="Santa Cruz"/>
+            <StringItem index="171" value="Sarpy"/>
+            <StringItem index="172" value="Sedgwick"/>
+            <StringItem index="173" value="Seminole"/>
+            <StringItem index="174" value="Shawano"/>
+            <StringItem index="175" value="Shawnee"/>
+            <StringItem index="176" value="Shelby"/>
+            <StringItem index="177" value="Somerset"/>
+            <StringItem index="178" value="Sonoma"/>
+            <StringItem index="179" value="Spokane"/>
+            <StringItem index="180" value="Stanislaus"/>
+            <StringItem index="181" value="Story"/>
+            <StringItem index="182" value="Suffolk"/>
+            <StringItem index="183" value="Summit"/>
+            <StringItem index="184" value="Sumter"/>
+            <StringItem index="185" value="Taney"/>
+            <StringItem index="186" value="Tarrant"/>
+            <StringItem index="187" value="Taylor"/>
+            <StringItem index="188" value="Tazewell"/>
+            <StringItem index="189" value="Teton"/>
+            <StringItem index="190" value="Tompkins"/>
+            <StringItem index="191" value="Travis"/>
+            <StringItem index="192" value="Trumbull"/>
+            <StringItem index="193" value="Twin Falls"/>
+            <StringItem index="194" value="Union"/>
+            <StringItem index="195" value="Vanderburgh"/>
+            <StringItem index="196" value="Ventura"/>
+            <StringItem index="197" value="Vermilion"/>
+            <StringItem index="198" value="Volusia"/>
+            <StringItem index="199" value="Wake"/>
+            <StringItem index="200" value="Warren"/>
+            <StringItem index="201" value="Warrick"/>
+            <StringItem index="202" value="Washington"/>
+            <StringItem index="203" value="Washoe"/>
+            <StringItem index="204" value="Wayne"/>
+            <StringItem index="205" value="Westchester"/>
+            <StringItem index="206" value="Westmoreland"/>
+            <StringItem index="207" value="Will"/>
+            <StringItem index="208" value="Williamson"/>
+            <StringItem index="209" value="Winnebago"/>
+            <StringItem index="210" value="Worcester"/>
+            <StringItem index="211" value="Wyoming"/>
+            <StringItem index="212" value="Yamhill"/>
+            <StringItem index="213" value="Yellowstone"/>
+            <StringItem index="214" value="Yolo"/>
+            <StringItem index="215" value="York"/>
+          </StringArray>
+        </Property>
+        <Property name="focusCycleRoot" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="60" y="300" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="Cerrar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="X"/>
+        <Property name="toolTipText" type="java.lang.String" value="Cerrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CerrarActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="440" y="30" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Fondo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImagenesIconos/2.jpg"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Mover"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de Movimiento"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="FondoMouseDragged"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="FondoMousePressed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="500" height="400"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
